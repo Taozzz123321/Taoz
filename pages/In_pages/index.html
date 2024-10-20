@@ -3,53 +3,49 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Taoz's Island|Interest</title>
+    <title>Taoz's Island | Interest</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="pages/In_pages/In_index.css" />
     <script src="pages/In_pages/index.js"></script>
 </head>
-    <body>
-        <div class="left_container">
-            <div class="btn prof" onclick="showContent('professional')">
-                <h3>Interest</h3>
-            </div>
-            
+<body>
+    <div class="left_container">
+        <div class="btn prof" onclick="showContent('professional')">
+            <h3>Interest</h3>
         </div>
-        <div class="right_container">
-            <div class="right_present_professional content">
-                <div class="card">
-                    <h1>FPS</h1>
-                    <h2>For example</h2>
-                    <p>VALORANT, CS 2
-                    </p>
-                </div>
-                <hr /> 
-                <div class="card">
-                    <h1>MOBA</h1>
-                    <h2>For example</h2>
-                    <p>LOL, DOTA 2
-                    </p>
-                </div>
+    </div>
+    <div class="right_container">
+        <div class="right_present_professional content">
+            <div class="card">
+                <h1>FPS</h1>
+                <h2>For example</h2>
+                <p>VALORANT, CS 2</p>
             </div>
-            <div class="right_present_research content">
-                <div class="card">
-                    <h1>SPORTS</h1>
-                    <h2>For example</h2>
-                    <p>BASKETBALL, TENNIS, PING-PONG
-                    </p>
-                </div>
+            <hr /> 
+            <div class="card">
+                <h1>MOBA</h1>
+                <h2>For example</h2>
+                <p>LOL, DOTA 2</p>
             </div>
         </div>
-        <div class="return">
-            <div class="btn ds_to_home">
-                <a href="https://github.com/Taozzz123321/Taoz/blob/02373f1bab2b2e3039cd5338b04c86d3460b7d8a/index.html">
-                    <h2>Return</h2>
-                </a>
+        <div class="right_present_research content" style="display: none;"> <!-- 初始隐藏 -->
+            <div class="card">
+                <h1>SPORTS</h1>
+                <h2>For example</h2>
+                <p>BASKETBALL, TENNIS, PING-PONG</p>
             </div>
         </div>
-        <script>
-            // Initialize with 'Professional' content displayed
-            showContent('professional');
-        </script>
-    </body>
+    </div>
+    <div class="return">
+        <div class="btn btn_return_home">
+            <a href="https://github.com/Taozzz123321/Taoz/blob/02373f1bab2b2e3039cd5338b04c86d3460b7d8a/index.html">
+                <h2>Return</h2>
+            </a>
+        </div>
+    </div>
+    <script>
+        // Initialize with 'Professional' content displayed
+        showContent('professional'); // 确保这个函数在js文件中定义
+    </script>
+</body>
 </html>
