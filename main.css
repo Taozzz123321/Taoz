@@ -10,7 +10,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('./dict/images/cover.jpg');
+  background-image: url('images/cover.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
