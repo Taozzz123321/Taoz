@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('https://github.com/Taozzz123321/Taoz/blob/745911065c34caf07c41b3a506393f39f950fa95/images/In_cover.jpg');
+    background-image: url('images/In_cover.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
