@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../../dict/images/ds_cover.jpg');
+    background-image: url('../../dict/images/gm_cover.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body{
 
   .left_container {
     width: 200px;
-    height: 300px;
+    height: 250px;
     background-color: rgba(51, 51, 51, 0.8); /* Background color with 80% opacity */
     display: flex;
     flex-direction: column;
@@ -59,8 +59,7 @@ body{
 
 .right_present_professional,
 .right_present_research,
-.right_present_inschool,
-.right_present_kaggle {
+.right_present_inschool {
     position: absolute;
     top: 30px;
     left: 50px;
@@ -75,15 +74,12 @@ body{
 
 .right_present_professional.active,
 .right_present_research.active,
-.right_present_inschool.active,
-.right_present_kaggle.active {
+.right_present_inschool.active {
     display: block;
 }
 
 .card {
-    position: relative;
     color: #fff;
-    /* justify-content: center; */
 }
 
 .card h1{
@@ -104,23 +100,6 @@ body{
     margin-bottom: 25px;
 }
 
-.stacking_img {
-    position: relative;
-    text-align: center;
-}
-
-.stacking_img img {
-    top: 50%;
-    left: 50%;
-    width: 70%;
-    height: 70%;
-}
-
-.stacking_img p {
-    /* 用于占据空间，以避免文本与图片重叠 */
-    margin: 0;
-}
-
 .return {
     position: relative;
     display: flex;
@@ -133,4 +112,10 @@ a:link {
 
 a:visited{
     color: #fff;
+}
+
+.mall_video{
+    position: relative;
+    margin-left: 200px;
+    margin-right: 200px;
 }
