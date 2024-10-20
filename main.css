@@ -10,7 +10,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('images/cover.jpg');
+  background-image: url('./dict/images/cover.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -133,3 +133,4 @@ body{
   font-weight: 500;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
+
